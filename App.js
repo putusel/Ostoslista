@@ -12,9 +12,7 @@ export default function App() {
     setText('');
   }
   const buttonPressed2 = () => { 
-    const data = '';
-    setData([...data, { key: text }]);
-    setText('');
+    setData([]);
   }
 
 
